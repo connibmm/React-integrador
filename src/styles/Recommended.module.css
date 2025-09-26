@@ -20,6 +20,9 @@
         flex-wrap: wrap;
         justify-content: space-between;
         gap: 1.5rem;
+        @media (max-width: 768px) {
+            justify-content: center;
+        }
         & li{
             display: flex;
             width: calc(50% - 1rem);
@@ -39,6 +42,9 @@
                 align-items: center;
                 gap: 1rem;
                 padding: 1rem;
+            }
+            @media (max-width: 480px) {
+                width: calc(100% - 2rem);
             }
             & picture{
                 display: flex;

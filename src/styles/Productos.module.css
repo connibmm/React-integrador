@@ -24,6 +24,9 @@
             @media (max-width: 768px) {
                 font-size: 1.4rem;
             }
+            @media (max-width: 480px) {
+                font-size: 1rem;
+            }
         }
     }
     & #categories{
@@ -34,6 +37,9 @@
         gap: 4rem;
         background-color: var(--lightViolet);
         border-radius: 2rem;
+        @media (max-width: 480px) {
+            gap: 2rem;
+        }
         & fieldset{
             display: flex;
             padding: .4rem;

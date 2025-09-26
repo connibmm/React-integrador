@@ -17,6 +17,9 @@
   @media (max-width: 768px) {
     width: 75%;
   }
+  @media (max-width: 480px) {
+    width: 100%;
+  }
 }
 .activeCart {
   transform: translateX(0%);
