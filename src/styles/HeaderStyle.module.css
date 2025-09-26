@@ -1,0 +1,91 @@
+#mainHeader {
+  width: 100vw;
+  height: 4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 0.25rem 2rem;
+  background-color: var(--darkViolet);
+  box-shadow: 0 0.2rem 1rem 0.2rem var(--lightLightViolet);
+  z-index: 9;
+}
+
+#brand {
+  background-image: linear-gradient(
+    to right,
+    var(--violet),
+    var(--lightViolet)
+  );
+  background-clip: text;
+  color: transparent;
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.desktopNavbar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.desktopNavbar a {
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 2rem;
+  transition: all 240ms ease-in-out;
+}
+
+.desktopNavbar a:hover {
+  background-color: var(--violet);
+}
+
+.mobileNavbar {
+  position: fixed;
+  top: 4rem;
+  right: 0;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(100%);
+  transition: all 240ms ease-in-out;
+  background-color: var(--darkViolet);
+  gap: 1rem;
+  padding: 1rem;
+}
+.mobileNavbar a {
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 2rem;
+  transition: all 240ms ease-in-out;
+  &:hover{
+    background-color: var(--violet);
+  }
+}
+.active {
+  transform: translateX(0);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 14%;
+  @media (max-width: 1024px) {
+    width: auto;
+    flex: 1;
+    gap: 1.2rem;
+  }
+}
+.btnCart {
+  background-color: var(--darkViolet);
+  color: var(--white);
+}
+.btnMenu {
+
+}

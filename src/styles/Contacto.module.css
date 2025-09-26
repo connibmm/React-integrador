@@ -1,0 +1,73 @@
+#contacto{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0rem 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    & h1{
+        font-size: 3rem;
+        text-transform: uppercase;
+        padding: 1rem;
+        font-weight: 700;
+        text-align: center;
+        & span{
+            color: var(--lightViolet);
+        }
+        @media (max-width: 525px) {
+            font-size: 2rem;
+        }
+    }
+    & form{
+        background-color: var(--lightDarkViolet);
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        border-radius: 2rem;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        & fieldset{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: .5rem;
+            width: 100%;
+            & label{
+                width: 80%;
+                text-align: left;
+                font-size: 1.1rem;
+                font-weight: 500;
+            }
+            & input{
+                width: 80%;
+                padding: .6rem;
+                border-radius: 2rem;
+            }
+            & output{
+
+            }
+            & textarea{
+                width: 80%;
+                padding: 1rem;
+                border-radius: 1rem;
+            }
+        }
+        & button{
+            background-color: var(--lightViolet);
+            border-radius: 2rem;
+            padding: .6rem;
+            width: 60%;
+            color: var(--white);
+            font-size: 1.1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 240ms ease-in-out;
+            &:hover{
+                background-color: var(--violet);
+            }
+        }
+    }
+}

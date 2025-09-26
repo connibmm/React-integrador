@@ -1,0 +1,44 @@
+#fab{
+    display: flex;
+    position: fixed;
+    bottom: 4rem;
+    left: 4rem;
+    z-index: 8;
+    width: 4.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    transform: scale(.9);
+    transition: all 240ms ease-in-out;
+    & svg{
+        stroke: var(--lightDarkViolet);
+    }
+    &:hover{
+        transform: scale(1);
+    }
+}
+
+#up{
+    display: flex;
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    z-index: 8;
+    width: 4.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    transform: scale(.9);
+    transition: all 240ms ease-in-out;
+    cursor: pointer;
+    & svg{
+        stroke: var(--lightDarkViolet);
+    }
+    &:hover{
+        transform: scale(1);
+    }
+}

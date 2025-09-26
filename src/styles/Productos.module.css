@@ -1,0 +1,154 @@
+#productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0rem 2rem;
+    & header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: .5rem;
+        & h1{
+            font-size: 3rem;
+            text-transform: uppercase;
+            padding: 1rem;
+            font-weight: 700;
+            & span{
+                color: var(--lightViolet);
+            }
+        }
+        & h3{
+            font-size: 1.8rem;
+            padding-bottom: 2rem;
+            @media (max-width: 768px) {
+                font-size: 1.4rem;
+            }
+        }
+    }
+    & #categories{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .6rem;
+        gap: 4rem;
+        background-color: var(--lightViolet);
+        border-radius: 2rem;
+        & fieldset{
+            display: flex;
+            padding: .4rem;
+            transform: scale(.9);
+            transition: all 240ms ease-in-out;
+            &:hover{
+                background-color: var(--violet);
+                border-radius: 2rem;
+                transform: scale(1);
+            }
+            & input{
+                display: none;
+            }
+            & label{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: .3rem;
+                cursor: pointer;
+                & span{
+                    @media (max-width: 768px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    & ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: flex-start;
+        width: 100%;
+        gap: 2rem;
+        padding-top: 2rem;
+        & li{
+            display: flex;
+            flex-direction: column;
+            width: calc(100% / 3 - 2rem);
+            background-color: var(--white);
+            border-radius: 1rem;
+            padding: .5rem;
+            position: relative;
+            @media (max-width: 768px) {
+                width: calc(100% / 2 - 2rem);
+            }
+            @media (max-width: 690px) {
+                width: 80%;
+            }
+            & picture{
+                display: flex;
+                width: 100%;
+                aspect-ratio: 1 / 1;
+                & img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 1rem;
+                }
+            }
+            & span{
+                position: absolute;
+                top: 1rem;
+                right: 1rem;
+                background-color: var(--violet);
+                padding: .5rem;
+                border-radius: 2rem;
+                border: solid .1rem var(--white);
+            }
+            & dl{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                & dt{
+                    display: none;
+                }
+                & dd{
+                    color: var(--darkViolet);
+                    text-align: center;
+                    &.nombre{
+                        font-size: 1.3rem;
+                        font-weight: 500;
+                        padding-top: 1rem;
+                    }
+                    &.descripcion{
+                        font-size: .8rem;
+                        padding: .5rem;
+                    }
+                    &.precio{
+                        font-size: 1.2rem;
+                        flex: 0 0 auto;
+                        margin-top: auto;
+                        padding-bottom: 1rem;
+                    }
+                }
+            }
+            & form{
+                & button{
+                    background-color: var(--lightViolet);
+                    border-radius: 2rem;
+                    padding: .6rem;
+                    width: 100%;
+                    color: var(--white);
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: all 240ms ease-in-out;
+                    &:hover{
+                        background-color: var(--violet);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,126 @@
+.cart {
+  position: fixed;
+  right: 0;
+  top: 4rem;
+  z-index: 9;
+  width: 30%;
+  height: 100%;
+  background-color: var(--darkViolet);
+  transform: translateX(100%);
+  transition: all 240ms ease-in-out;
+  & > * {
+    display: none;
+  }
+  @media (max-width: 1200px) {
+    width: 50%;
+  }
+  @media (max-width: 768px) {
+    width: 75%;
+  }
+}
+.activeCart {
+  transform: translateX(0%);
+  & header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    & form {
+      display: flex;
+      gap: 1rem;
+      & button {
+        background-color: var(--darkViolet);
+        color: var(--white);
+      }
+    }
+  }
+  & ul {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.2rem solid var(--lightViolet);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    height: calc(75% - 5rem);
+    & li {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 1rem;
+      gap: 1rem;
+      border-bottom: 0.05rem solid var(--lightViolet);
+      & picture {
+        height: 5rem;
+        display: flex;
+        aspect-ratio: 1/1;
+        & img {
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      & dl {
+        display: flex;
+        flex-direction: column;
+        gap: 1.1rem;
+        & dt {
+          font-size: 1.5rem;
+        }
+        & dd {
+        }
+      }
+      & form {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 1rem;
+        gap: 1rem;
+        & button {
+          padding: 0.25rem;
+          aspect-ratio: 1/1;
+          border-radius: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: var(--darkViolet);
+        }
+        & output {
+          font-weight: 400;
+          font-size: 1.15rem;
+        }
+      }
+    }
+  }
+  & footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    & form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      & fieldset {
+        font-size: 1.3rem;
+        &:last-child {
+          & button {
+            background-color: var(--lightViolet);
+            padding: 1rem;
+            border-radius: 2rem;
+            color: var(--white);
+            font-weight: 600;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 240ms ease-in-out;
+            &:hover {
+              background-color: var(--violet);
+            }
+          }
+        }
+      }
+    }
+  }
+}

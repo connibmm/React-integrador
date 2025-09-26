@@ -1,0 +1,130 @@
+[
+  {
+    "nombre": "Cáncer Cósmico",
+    "id": "001",
+    "descripcion": "Hamburguesa de camarones con alioli de ajo y rúcula. Suave, sensible y deliciosa.",
+    "imagen": "/imagenes/cancer-cosmico.webp",
+    "precio": 19000,
+    "categoria": "Agua"
+  },
+  {
+    "nombre": "Escorpio Intensa",
+    "id": "002",
+    "descripcion": "Sabor profundo: burger con salsa de vino tinto, cebolla morada asada y queso curado.",
+    "imagen": "/imagenes/escorpio-intensa.webp",
+    "precio": 18000,
+    "categoria": "Agua"
+  },
+  {
+    "nombre": "Piscis Marina",
+    "id": "003",
+    "descripcion": "Filete de salmón a la plancha, crema de eneldo y pan de centeno. Una delicia del océano.",
+    "imagen": "/imagenes/piscis-marina.webp",
+    "precio": 19000,
+    "categoria": "Agua"
+  },
+  {
+    "nombre": "Sirena Zodiacal",
+    "id": "004",
+    "descripcion": "Una fusión mística de atún sellado, aguacate y salsa de sésamo. Pura intuición en cada bocado.",
+    "imagen": "/imagenes/sirena-zodiacal.webp",
+    "precio": 16000,
+    "categoria": "Agua"
+  },
+  {
+    "nombre": "Géminis Dual",
+    "id": "005",
+    "descripcion": "Dos sabores en uno: mitad carne, mitad pollo con salsas opuestas. ¿Te atreves a elegir?",
+    "imagen": "/imagenes/geminis-dual.webp",
+    "precio": 14000,
+    "categoria": "Aire"
+  },
+  {
+    "nombre": "Libra Equilibrada",
+    "id": "006",
+    "descripcion": "El balance perfecto: carne suave, vegetales grillados, y alioli de albahaca.",
+    "imagen": "/imagenes/libra-equilibrada.webp",
+    "precio": 15000,
+    "categoria": "Aire"
+  },
+  {
+    "nombre": "Acuario Cósmico",
+    "id": "007",
+    "descripcion": "Única y atrevida: hamburguesa con queso azul, peras caramelizadas y rúcula.",
+    "imagen": "/imagenes/acuario-cosmico.webp",
+    "precio": 19000,
+    "categoria": "Aire"
+  },
+  {
+    "nombre": "Nebulosa de Aire",
+    "id": "008",
+    "descripcion": "Light pero potente: burger de pollo crujiente, ensalada coleslaw y salsa cítrica.",
+    "imagen": "/imagenes/nebulosa-de-aire.webp",
+    "precio": 18000,
+    "categoria": "Aire"
+  },
+  {
+    "nombre": "Aries Picante",
+    "id": "009",
+    "descripcion": "Explosiva y atrevida: carne a la parrilla, jalapeños, cheddar, cebolla morada y salsa chipotle.",
+    "imagen": "/imagenes/aries-picante.webp",
+    "precio": 16000,
+    "categoria": "Fuego"
+  },
+  {
+    "nombre": "Leo Estelar",
+    "id": "010",
+    "descripcion": "Carne angus, panceta crocante, cebolla caramelizada, queso provolone y salsa BBQ. Brilla en cada bocado.",
+    "imagen": "/imagenes/leo-estelar.webp",
+    "precio": 18000,
+    "categoria": "Fuego"
+  },
+  {
+    "nombre": "Sagitario Viajero",
+    "id": "011",
+    "descripcion": "Con sabores del mundo: hamburguesa con guacamole, nachos triturados y aderezo de yogurt especiado.",
+    "imagen": "/imagenes/sagitario-viajero.webp",
+    "precio": 17000,
+    "categoria": "Fuego"
+  },
+  {
+    "nombre": "Fénix del Zodiaco",
+    "id": "012",
+    "descripcion": "Inspirada en el fuego eterno: burger con carne picante, queso ahumado y ajíes asados.",
+    "imagen": "/imagenes/fenix-del-zodiaco.webp",
+    "precio": 14000,
+    "categoria": "Fuego"
+  },
+  {
+    "nombre": "Tauro Deluxe",
+    "id": "013",
+    "descripcion": "Placer terrenal: doble carne, doble queso, pan brioche y un toque de trufa.",
+    "imagen": "/imagenes/tauro-deluxe.webp",
+    "precio": 19000,
+    "categoria": "Tierra"
+  },
+  {
+    "nombre": "Virgo Veggie",
+    "id": "014",
+    "descripcion": "Ordenada y saludable: hamburguesa vegetal con garbanzos, espinaca y aderezo de mostaza dulce.",
+    "imagen": "/imagenes/virgo-veggie.webp",
+    "precio": 16000,
+    "categoria": "Tierra"
+  },
+  {
+    "nombre": "Capricornio Clásico",
+    "id": "015",
+    "descripcion": "Sabor tradicional: carne vacuna, lechuga, tomate, cebolla, queso y mayonesa.",
+    "imagen": "/imagenes/capricornio-clásico.webp",
+    "precio": 15000,
+    "categoria": "Tierra"
+  },
+  {
+    "nombre": "Gaia Burger",
+    "id": "016",
+    "descripcion": "Inspirada en la madre tierra: portobellos grillados, queso de cabra y rúcula fresca.",
+    "imagen": "/imagenes/gaia-burger.webp",
+    "precio": 17000,
+    "categoria": "Tierra"
+  }
+]
